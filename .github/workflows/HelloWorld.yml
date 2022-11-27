@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run tests
-      uses: AnaClaraOR/ExemploRobotFramework@v1.0
+      uses: AnaClaraOR/ExemploRobotFramework@v2.0
       with:
         robot_tests_dir: TESTE_HelloWorld
         
