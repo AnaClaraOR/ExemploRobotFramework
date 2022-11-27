@@ -11,9 +11,9 @@ jobs:
     
     steps:
     - uses: actions/checkout@v2
-    - name: Run tests
-      with:
-        robot_tests_dir: TESTE_HelloWorld
+    #- name: Run tests
+    #  with:
+    #    robot_tests_dir: TESTE_HelloWorld
         
     - name: test_hello_world
       run: echo "Hello World"
