@@ -15,5 +15,5 @@ jobs:
       with:
         robot_tests_dir: TESTE_HelloWorld
         
-    #- name: test_hello_world
-     # run: echo "Hello World"
+    - name: test_hello_world_2
+      run: echo "Hello World"
