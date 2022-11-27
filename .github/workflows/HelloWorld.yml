@@ -19,12 +19,12 @@
 #    - name: test_hello_world_2
 #      run: echo "Hello World"
 
-name: Robot Framework Reporter Demo
+name: Hello World
 
 on:
   pull_request:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   test:
